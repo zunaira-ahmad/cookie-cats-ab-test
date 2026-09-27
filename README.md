@@ -25,7 +25,7 @@ Should the gate be moved from level 30 to level 40?
 4. Hypothesis Testing: Two-Proportion Z-Test¶
     Perform testing to determine whether the true retention rate differs in both groups or not.
     
-5. Recommendation and Conclusion
+## Recommendation and Conclusion
 
     Results:
 
