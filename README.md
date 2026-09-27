@@ -25,22 +25,23 @@ Should the gate be moved from level 30 to level 40?
 4. Hypothesis Testing: Two-Proportion Z-Test¶
     Perform testing to determine whether the true retention rate differs in both groups or not.
     
-## Recommendation and Conclusion
+## Recommendation and Conclusion:
 
-    Results:
+Results:
 
     | Metric | gate_30 | gate_40 | Abs. diff | Relative lift | p-value | 95% CI |
     |---|---|---|---|---|---|---|
     | Day-1 retention | 44.82% | 44.23% | 0.59pp | 1.34% | 0.0744 | (-0.06pp, 1.24pp) |
     | Day-7 retention | 19.02% | 18.20% | 0.82pp | 4.51% | **0.0016** | (0.31pp, 1.33pp) |
 
-    - Retention Day 1: Since p-value>0.05 and the confidence interval barely contains 0, the results are not statistically significant.
 
-    - Retention Day 7: Since p-value<0.05 and the confidence interval is above 0, the results are statistically significant.
+- Retention Day 1: Since p-value>0.05 and the confidence interval barely contains 0, the results are not statistically significant.
+
+- Retention Day 7: Since p-value<0.05 and the confidence interval is above 0, the results are statistically significant.
     
-    Recommendation:
+**Recommendation:**
+
+**Do not move the gate from level 30 to level 40.** 
     
-    **Do not move the gate from level 30 to level 40.** 
-    
-    The change shows no retention benefit and measurably reduces 7-day retention by an estimated 0.3-1.3 percentage points (~4.5% relative decline). Recommend keeping the gate at its current position.
+The change shows no retention benefit and measurably reduces 7-day retention by an estimated 0.3-1.3 percentage points (~4.5% relative decline). Recommend keeping the gate at its current position.
 
